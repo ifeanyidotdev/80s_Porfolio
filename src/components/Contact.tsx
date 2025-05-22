@@ -19,11 +19,17 @@ const Contact: React.FC = () => {
 		setFormData((prev) => ({ ...prev, [name]: value }));
 	};
 
-	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+	const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		setIsSubmitting(true);
 
 		// Simulate form submission
+
+		await fetch("https://formspree.io/f/mwpojoql", {
+			method: "POST",
+			headers: { "Content-Type": "application/json" },
+			body: JSON.stringify(formData),
+		});
 		setTimeout(() => {
 			setIsSubmitting(false);
 			setSubmitMessage(
@@ -86,6 +92,7 @@ const Contact: React.FC = () => {
 							onSubmit={handleSubmit}
 							className="space-y-6"
 							action="https://formspree.io/f/mwpojoql"
+							method="POST"
 						>
 							<div>
 								<label

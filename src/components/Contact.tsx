@@ -82,7 +82,11 @@ const Contact: React.FC = () => {
 					</div>
 
 					<div className="retro-card p-6">
-						<form onSubmit={handleSubmit} className="space-y-6">
+						<form
+							onSubmit={handleSubmit}
+							className="space-y-6"
+							action="https://formspree.io/f/mwpojoql"
+						>
 							<div>
 								<label
 									htmlFor="name"

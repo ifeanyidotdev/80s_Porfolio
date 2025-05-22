@@ -23,6 +23,8 @@ const Projects: React.FC = () => {
 				"Dora is a technology company that provides a comprehensive delivery management platform designed to empower logistics businesses and e-commerce operators ",
 			image:
 				"https://usedora.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdjrjesruj%2Fimage%2Fupload%2Fv1728901685%2FDora%2520Website%2FDora_App_kvnu52.png&w=3840&q=75",
+			// image:
+			// 	"https://res.cloudinary.com/djrjesruj/image/upload/v1728901685/Dora%20Website/Dora_App_kvnu52.png&w=3840&q=75",
 			tags: ["Flutter", "Firebase"],
 			liveLink: "https://usedora.com/",
 			githubLink: "#",

@@ -49,7 +49,8 @@ const Contact: React.FC = () => {
 		},
 		{
 			icon: <Mail className="h-6 w-6 text-purple-400" />,
-			text: "contact@ifeanyi.dev",
+			text: "ifeanyichukwudev@gmail.com",
+			// text: "contact@ifeanyi.dev",
 		},
 	];
 

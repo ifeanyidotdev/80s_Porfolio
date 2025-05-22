@@ -11,7 +11,8 @@ export const SOCIAL_LINKS = {
 	},
 	email: {
 		name: "Email",
-		url: "mailto:contact@ifeanyi.dev",
+		url: "mailto:ifeanyichukwudev@gmail.com",
+		// url: "mailto:contact@ifeanyi.dev",
 	},
 	twitter: {
 		name: "Twitter",

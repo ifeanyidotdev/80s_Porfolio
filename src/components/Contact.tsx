@@ -44,7 +44,8 @@ const Contact: React.FC = () => {
 		},
 		{
 			icon: <Phone className="h-6 w-6 text-purple-400" />,
-			text: "+234 81-0471-5826",
+			text: "+234 90-3175-7021",
+			// text: "+234 81-0471-5826",
 		},
 		{
 			icon: <Mail className="h-6 w-6 text-purple-400" />,
